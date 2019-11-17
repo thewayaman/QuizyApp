@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Easy Notes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+        crossorigin="anonymous"></script>
+
+    <style>
+        ::selection {
+            color: #ffffff;
+    background: #5f5f5f;
+}
+        </style>
+</head>
+
+<body style="background-color:#2E9CE6;font-family: 'Raleway', sans-serif;">
+    <center>
+        <br>
+        <br><br>
+        <h1 style="color: #FFF;font-family: 'Raleway', sans-serif;">Welcome To Quizy Notes</h1>
+        <h4 style="color: #383838;font-family: 'Raleway', sans-serif;">It's Quick and Easy</h4>
+        <br><br>
+        <div class="container">
+
+            <div class="row col-md-12">
+                <div class="col-md-6">
+                    <div class="card border border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title">List all Notes: </h5><br><a href="http://localhost:3000/list" target="_blank">
+                                <button type="button" class="btn active" style="background-color: #2E9CE6;">
+                                    <code style="color: #FFF;font-family: 'Raleway', sans-serif;">Show All Notes</code></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-6">
+                    <div class="card border border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title">Remove all notes: </h5><br><a href="http://localhost:3000/removeAll"
+                                target="_blank">
+                                <button type="button" class="btn active" style="background-color: #2E9CE6;">
+                                    <code style="color: #FFF;font-family: 'Raleway', sans-serif;">Remove All Notes</code></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row col-md-12">
+                <div class="col-md-4">
+                    <div class="card border border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title ">Adding new Note: </h5><br><a href="http://localhost:3000/add/"
+                                target="_blank">add/[ENTER NOTE]
+                                <br><br>
+                                <button type="button" class="btn active" style="background-color: #2E9CE6;">
+                                    <code style="color: #FFF;font-family: 'Raleway', sans-serif;">&nbsp;&nbsp;&nbsp;ADD&nbsp;&nbsp;&nbsp;</code></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-4">
+                    <div class="card border border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title">Removing Note: </h5><br><a href="http://localhost:3000/remove/"
+                                target="_blank">remove/[TITLE NUMBER]
+                                <br><br>
+                                <button type="button" class="btn active" style="background-color: #2E9CE6;">
+                                    <code style="color: #FFF;font-family: 'Raleway', sans-serif;">Remove</code></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border border-primary">
+                        <div class="card-body">
+                            <h5 class="card-title">Update Note: </h5><br><a href="http://localhost:3000/update/" target="_blank">update/[TITLE
+                                NUMBER]/[NEW NOTE]
+                                <br><br>
+                                <button type="button" class="btn active" style="background-color: #2E9CE6;">
+                                    <code style="color: #FFF;font-family: 'Raleway', sans-serif;">Update</code></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <br>
+        </div>
+    </center>
+
+</body>
+
+</html>
